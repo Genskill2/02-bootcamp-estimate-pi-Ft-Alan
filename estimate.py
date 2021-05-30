@@ -41,9 +41,9 @@ if __name__ == "__main__":
             x = random.random()
             y = random.random()
             d = ((x**2)+(y**2))**(0.5)
-            if d <= 1
-               c+= 1
-            else
+            if d > 1:
                s+= 1
+            else
+               c+= 1
         p = c/s
         return 4*p
