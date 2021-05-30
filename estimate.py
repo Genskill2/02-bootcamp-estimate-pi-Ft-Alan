@@ -45,5 +45,5 @@ if __name__ == "__main__":
                c+= 1
             else
                s+= 1
-        p = s/c
+        p = c/s
         return 4*p
